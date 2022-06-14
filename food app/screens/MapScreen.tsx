@@ -28,7 +28,7 @@ const SearchResults = (props: NavProps) => {
   useEffect(() => {
     Promise.all([
       axios.default.get(`http://192.168.1.3:3000/locations/${term}`),
-      axios.default.get(`http://192.168.1.3:3000/universities/${term}`),
+      axios.default.get(`http://192.168.1.3:3000/Recipes/${term}`),
     ])
       .then(([{ data: locationResults }, { data: universitiesResults }]) => {
         if (locationResults) setCountry(locationResults);
