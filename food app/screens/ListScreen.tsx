@@ -8,7 +8,7 @@ import { Card } from 'react-native-elements';
 import { useNavigation } from '@react-navigation/native';
 import Carousel from 'react-native-snap-carousel';
 
-const Item = ({ name, addressFmt, slug, image }) => (
+const Item = ({ name, addressFmt, image }) => (
     <View>
         <Card containerStyle={{ justifyContent: "center" }}>
        
@@ -64,7 +64,7 @@ const ListScreen = () => {
     }, []);
 
     const renderItem = ({ item }) => (
-        <Item name={item.name} addressFmt={item.addressFmt} slug={item.slug} image={item.image} />
+        <Item name={item.name} addressFmt={item.addressFmt}  image={item.image} />
     );
 
 
@@ -103,7 +103,6 @@ type RouteProps = {
 type University = {
     name: string;
     addressFmt: string;
-    slug: string;
     image: Array<string>;
 }
 

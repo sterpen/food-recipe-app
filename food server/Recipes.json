@@ -2,7 +2,6 @@
   "EG": [
     {
       "name": "Koshari",
-      "slug": "GIU",
       "lat": 30.004183512078416,
       "lng": 31.700479412499583,
       "addressFmt": "lentil rice, pasta, chickpeas, vinegar tomato sauce, and topped with fried onions.",
@@ -13,7 +12,6 @@
     },
     {
       "name": "Molokhia",
-      "slug": "GUC",
       "lat": 29.987014316926583,
       "lng": 31.441367261625764,
       "addressFmt": "chicken broth ,frozen Molokhia, freshly roasted and ground coriander,lots of garlic, ghee,Bullion cube,Tomato sauce,Baking soda",
@@ -24,7 +22,6 @@
     },
     {
       "name": "Mahshi",
-      "slug": "AUC",
       "lat": 30.018824835519567,
       "lng": 31.501581964193065,
       "addressFmt": "Onion,Lean Beef ,Cumin,Parsley,Rice,olive oil, salt, pepper, zucchini , cilantro ,chiken broth",
@@ -37,7 +34,6 @@
   "AE": [
     {
       "name": "Konafa",
-      "slug": "AUC",
       "lat": 25.091451877852908,
       "lng": 55.156083533206434,
       "addressFmt": "syrub (granulated sugar,water,lemon juice), shredded phyllo dough, grated mozarella cheese, melted butter, orange food coloring, crushed pistachios",
@@ -50,7 +46,6 @@
   "GB": [
     {
       "name": "Chealsea buns",
-      "slug": "UC",
       "lat": 52.3529481543808,
       "lng": 0.15808590842544637,
       "addressFmt": "flour, sugar, Active yeast, butter,brown sugar , nutmeg, raisins,sour cream frosting, salt",
@@ -63,7 +58,6 @@
   "DE": [
     {
       "name": "Eintopf",
-      "slug": "UH",
       "lat": 53.566630572924716,
       "lng": 9.984600173487783,
       "addressFmt": "potato, carrot, tomato, bouillon, onion,vefetable broth,salt, garlic,black pepper",
