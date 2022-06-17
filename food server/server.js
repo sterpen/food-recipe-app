@@ -1,13 +1,13 @@
 const express = require('express');
 const app  = express();
 const locations = require('./locations.json');
-const universities = require('./Recipes.json');
+const Recipes = require('./Recipes.json');
 
 app.get('/locations', function(req, res) {
   return res.send(locations);
 });
 app.get('/Recipes', function (req, res) {
-  return res.send(universities);
+  return res.send(Recipes);
 });
 
 app.get('/locations/:countryCode', function(req, res) {
@@ -17,7 +17,7 @@ app.get('/locations/:countryCode', function(req, res) {
 
 app.get('/Recipes/:countryCode', function(req, res) {
   const { countryCode } = req.params;
-  return res.send(universities[countryCode.toUpperCase()]);
+  return res.send(Recipes[countryCode.toUpperCase()]);
 });
 
 app.listen(3000, function() {
