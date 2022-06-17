@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     title: 'Search',
-    screen: 'MapScreen',
+    screen: 'ListScreen',
   },
 
 ]
@@ -36,18 +36,20 @@ const NavOptions = (props: NavProps) => {
 const styles = StyleSheet.create({
   container: {
     padding: 10,
-    width:100,
+    width:300,
     
   },
   button: {
-    backgroundColor: "#f8f9fa",
-    padding: 10,
-    left:50,
-    position: 'absolute'
-    
+    backgroundColor: "#333", //#f8f9fa
+    borderRadius: 8,
+    marginTop: 12,
+    padding: 20,
+    left: 150,
+    position: "absolute",
+    width: 120,
   },
   text: {
-    color: "black",
+    color: "white",
     textAlign: "center",
   },
 });
